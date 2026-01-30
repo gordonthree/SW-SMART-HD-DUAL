@@ -1,4 +1,4 @@
-# High / Low Smart Switch Node
+# Heavy Duty Dual Smart Switch Node
 
 Compact power distribution module intended to control two heavy duty high-side DC loads. The module provides eFuse protection and current monitoring for each load. Module temperature and supply voltage are also monitored. This module works with other CAN-CTL modules using the robust CAN bus interface.
 
@@ -6,7 +6,7 @@ Compact power distribution module intended to control two heavy duty high-side D
 
 
 * STM32G0B1KBT 32-pin microcontroller on board
-* Dual BTS50010 Profet smart switches for high side loads
+* Dual Infineon BTS50010 Profet smart switches for high side loads
 * Microchip MCP2562 isolated CAN bus transceiver
 * Voltage divider to monitor supply voltage
 * High side switch current monitoring and diagnostics
