@@ -1,13 +1,15 @@
 # High / Low Smart Switch Node
-* STM32G071 Microcontroller on board
-* BTS50010 Profet Smart Switch for high side loads
-* VNB35N07 OMNIFET Protected MOSFET for low side loads
-* Microchip MCP1416 gate driver to ensure maximum low side efficiency
+
+Compact power distribution module intended to control two heavy duty high-side DC loads. The module provides eFuse protection and current monitoring for each load. Module temperature and supply voltage are also monitored. This module works with other CAN-CTL modules using the robust CAN bus interface.
+
+<IMG src="https://github.com/gordonthree/SW-SMART-HIGH-LOW/blob/main/SW-SMART-HIGH-LOW.png?raw=true" width=480>
+
+
+* STM32G0B1KBT 32-pin microcontroller on board
+* Dual BTS50010 Profet smart switches for high side loads
 * Microchip MCP2562 isolated CAN bus transceiver
 * Voltage divider to monitor supply voltage
 * High side switch current monitoring and diagnostics
 * Three position screw terminal block for CAN bus connection
 * Heavy duty terminal block connectors for power in/out
-* Headers for SWLINK programming and USART1 debug serial port
-
-<IMG src="https://github.com/gordonthree/SW-SMART-HIGH-LOW/blob/main/SW-SMART-HIGH-LOW.png?raw=true" width=480>
+* Headers for SWD programming and USART1 debug serial port
