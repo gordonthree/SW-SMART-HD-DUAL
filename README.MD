@@ -2,7 +2,7 @@
 
 Compact power distribution module intended to control two heavy duty high-side DC loads. The module provides eFuse protection and current monitoring for each load. Module temperature and supply voltage are also monitored. This module works with other CAN-CTL modules using the robust CAN bus interface.
 
-<IMG src="https://github.com/gordonthree/SW-SMART-HIGH-LOW/blob/main/SW-SMART-HIGH-LOW.png?raw=true" width=480>
+<IMG src="https://github.com/gordonthree/SW-SMART-HD-DUAL/blob/main/SW-SMART-HD-DUAL.png?raw=true" width=480>
 
 
 * STM32G0B1KBT 32-pin microcontroller on board
