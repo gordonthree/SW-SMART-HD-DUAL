@@ -4290,7 +4290,7 @@
 		(uuid "14e69508-3c55-43a5-8588-5c4594b40e5b")
 	)
 	(junction
-		(at 198.12 153.67)
+		(at 160.02 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a3c63d3-db80-417f-be1e-dd2547e19949")
@@ -4350,7 +4350,7 @@
 		(uuid "411f3bd6-dea9-4ab7-b3d6-ae6542346810")
 	)
 	(junction
-		(at 194.31 121.92)
+		(at 156.21 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44bbe496-cbad-4f3c-8d97-544ac25b0dbc")
@@ -4488,6 +4488,12 @@
 		(uuid "a7b46e6d-9254-485a-9351-97414fae55cb")
 	)
 	(junction
+		(at 160.02 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b38a212b-3ccf-4c9c-8019-7a0884be78be")
+	)
+	(junction
 		(at 299.72 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4546,12 +4552,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ead3a389-62af-4cf1-be1b-bdf92de25904")
-	)
-	(junction
-		(at 198.12 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f06f8a94-ef3b-4d09-9faf-d22e9ad7c14b")
 	)
 	(junction
 		(at 68.58 29.21)
@@ -4635,7 +4635,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 153.67) (xy 173.99 172.72)
+			(xy 160.02 153.67) (xy 160.02 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4685,7 +4685,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 127) (xy 226.06 137.16)
+			(xy 187.96 127) (xy 187.96 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4772,16 +4772,6 @@
 			(type default)
 		)
 		(uuid "15688ac7-cf43-47e3-a08b-e55c5a01aff4")
-	)
-	(wire
-		(pts
-			(xy 132.08 172.72) (xy 173.99 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "158bf6e2-859d-4b01-aec5-d839adeec4c3")
 	)
 	(wire
 		(pts
@@ -5045,6 +5035,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 48.26) (xy 293.37 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7155ef-72c3-41ec-8c76-84ca9171a6ec")
+	)
+	(wire
+		(pts
 			(xy 78.74 29.21) (xy 83.82 29.21)
 		)
 		(stroke
@@ -5062,6 +5062,16 @@
 			(type default)
 		)
 		(uuid "30115098-19d2-4135-b01e-5f88039d8de8")
+	)
+	(wire
+		(pts
+			(xy 132.08 172.72) (xy 160.02 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3089ddf4-1725-4730-8e8d-996920ee222c")
 	)
 	(wire
 		(pts
@@ -5155,7 +5165,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 139.7) (xy 228.6 121.92)
+			(xy 190.5 139.7) (xy 190.5 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5195,7 +5205,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 116.84) (xy 194.31 121.92)
+			(xy 156.21 116.84) (xy 156.21 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5305,7 +5315,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 153.67) (xy 223.52 142.24)
+			(xy 185.42 153.67) (xy 185.42 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5405,7 +5415,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 139.7) (xy 228.6 139.7)
+			(xy 182.88 139.7) (xy 190.5 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5532,6 +5542,16 @@
 			(type default)
 		)
 		(uuid "633968a8-6c24-4d5d-ab26-4d9d09d82d3f")
+	)
+	(wire
+		(pts
+			(xy 160.02 133.35) (xy 160.02 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636305c9-6930-4f90-a977-0f6086795c9e")
 	)
 	(wire
 		(pts
@@ -5675,7 +5695,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 137.16) (xy 226.06 137.16)
+			(xy 182.88 137.16) (xy 187.96 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5692,16 +5712,6 @@
 			(type default)
 		)
 		(uuid "78a55909-9b07-46e1-a5c1-ee81910340db")
-	)
-	(wire
-		(pts
-			(xy 137.16 133.35) (xy 160.02 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a137f67-7759-4eca-9537-a4c1de3a133c")
 	)
 	(wire
 		(pts
@@ -5735,23 +5745,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 142.24) (xy 198.12 153.67)
+			(xy 160.02 142.24) (xy 160.02 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7f447acd-da9e-44cd-8e87-af1f317472bf")
-	)
-	(wire
-		(pts
-			(xy 160.02 127) (xy 198.12 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8079c1f8-a732-45f7-a5c9-0da8da7a4f04")
 	)
 	(wire
 		(pts
@@ -5865,7 +5865,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 137.16) (xy 200.66 137.16)
+			(xy 160.02 137.16) (xy 162.56 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5942,16 +5942,6 @@
 			(type default)
 		)
 		(uuid "98a3c464-52fc-457b-98a1-81a6bc15fc0d")
-	)
-	(wire
-		(pts
-			(xy 160.02 127) (xy 160.02 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98df62fa-abc1-4a32-a9f3-4d6a2ca5e815")
 	)
 	(wire
 		(pts
@@ -6065,16 +6055,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 153.67) (xy 198.12 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac62e8ef-507e-4ebc-a8a1-a09868b5973d")
-	)
-	(wire
-		(pts
 			(xy 67.31 80.01) (xy 69.85 80.01)
 		)
 		(stroke
@@ -6115,7 +6095,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 139.7) (xy 200.66 139.7)
+			(xy 156.21 139.7) (xy 162.56 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6245,7 +6225,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 127) (xy 226.06 127)
+			(xy 160.02 127) (xy 187.96 127)
 		)
 		(stroke
 			(width 0)
@@ -6305,7 +6285,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 121.92) (xy 194.31 139.7)
+			(xy 156.21 121.92) (xy 156.21 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6345,7 +6325,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 142.24) (xy 200.66 142.24)
+			(xy 160.02 142.24) (xy 162.56 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6445,6 +6425,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 133.35) (xy 160.02 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ea5a62-541d-4af8-aed9-aa53612a3489")
+	)
+	(wire
+		(pts
 			(xy 46.99 128.27) (xy 52.07 128.27)
 		)
 		(stroke
@@ -6485,7 +6475,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 142.24) (xy 223.52 142.24)
+			(xy 182.88 142.24) (xy 185.42 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6595,7 +6585,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 153.67) (xy 223.52 153.67)
+			(xy 160.02 153.67) (xy 185.42 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6775,7 +6765,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 137.16) (xy 198.12 127)
+			(xy 160.02 137.16) (xy 160.02 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6835,7 +6825,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 121.92) (xy 194.31 121.92)
+			(xy 190.5 121.92) (xy 156.21 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6962,16 +6952,6 @@
 			(justify left bottom)
 		)
 		(uuid "47d820ec-923e-412d-b31d-00f18992eba1")
-	)
-	(label "SW2OUT"
-		(at 173.99 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4cbe9893-70da-4b06-9707-c16cb8132333")
 	)
 	(label "SW"
 		(at 68.58 90.17 0)
@@ -7134,7 +7114,7 @@
 		(uuid "abe6036b-547a-40fb-9ea7-8beabb620cae")
 	)
 	(label "SW1IS"
-		(at 293.37 45.72 0)
+		(at 293.37 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7192,6 +7172,16 @@
 			(justify right bottom)
 		)
 		(uuid "de70550a-0ecd-46af-92b9-61136b802e80")
+	)
+	(label "SW2IS"
+		(at 293.37 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0d318d7-fc3a-42bc-95b9-60f6827782ac")
 	)
 	(label "SW1IS"
 		(at 46.99 138.43 180)
@@ -7863,7 +7853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BTS50010-1TAD-DS-v01_00-EN.pdf?fileId=5546d462576f34750157c38810ca55cd"
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/10/49/infineon-bts50010-1tad-datasheet-en.pdf"
 			(at 85.09 182.88 0)
 			(effects
 				(font
@@ -8838,7 +8828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BTS50010-1TAD-DS-v01_00-EN.pdf?fileId=5546d462576f34750157c38810ca55cd"
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/10/49/infineon-bts50010-1tad-datasheet-en.pdf"
 			(at 90.17 143.51 0)
 			(effects
 				(font
@@ -8888,7 +8878,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 194.31 116.84 0)
+		(at 156.21 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8897,7 +8887,7 @@
 		(fields_autoplaced yes)
 		(uuid "521e9b9b-c418-46a6-a236-a7161c7e5fea")
 		(property "Reference" "#PWR07"
-			(at 194.31 120.65 0)
+			(at 156.21 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8906,7 +8896,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 194.31 111.76 0)
+			(at 156.21 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8914,7 +8904,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 116.84 0)
+			(at 156.21 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8923,7 +8913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 116.84 0)
+			(at 156.21 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8932,7 +8922,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 194.31 116.84 0)
+			(at 156.21 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11577,7 +11567,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:VP0365840000G")
-		(at 220.98 142.24 180)
+		(at 182.88 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11586,7 +11576,7 @@
 		(fields_autoplaced yes)
 		(uuid "c57f5490-c217-4b1c-98e1-2a2fd9f0f493")
 		(property "Reference" "POWER_OUT1"
-			(at 210.82 129.54 0)
+			(at 172.72 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11594,7 +11584,7 @@
 			)
 		)
 		(property "Value" "VP0365840000G"
-			(at 210.82 132.08 0)
+			(at 172.72 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11602,7 +11592,7 @@
 			)
 		)
 		(property "Footprint" "VP0365840000G"
-			(at 204.47 47.32 0)
+			(at 166.37 47.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11612,7 +11602,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/ProductDetail/Amphenol-Anytek/VP0365840000G?qs=Mv7BduZupUgzoCVpYg1nQw%3D%3D"
-			(at 204.47 -52.68 0)
+			(at 166.37 -52.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11622,7 +11612,7 @@
 			)
 		)
 		(property "Description" "3 Position Wire to Board Terminal Block Horizontal with Board 0.400\" (10.16mm) Through Hole"
-			(at 220.98 142.24 0)
+			(at 182.88 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11631,7 +11621,7 @@
 			)
 		)
 		(property "Height" "28.8"
-			(at 204.47 -252.68 0)
+			(at 166.37 -252.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11641,7 +11631,7 @@
 			)
 		)
 		(property "Mouser Part Number" "649-VP03658400J0G"
-			(at 204.47 -352.68 0)
+			(at 166.37 -352.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11651,7 +11641,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/VP0365840000G?qs=Mv7BduZupUgzoCVpYg1nQw%3D%3D"
-			(at 204.47 -452.68 0)
+			(at 166.37 -452.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11661,7 +11651,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amphenol"
-			(at 204.47 -552.68 0)
+			(at 166.37 -552.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11671,7 +11661,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "VP0365840000G"
-			(at 204.47 -652.68 0)
+			(at 166.37 -652.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
