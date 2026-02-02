@@ -4456,6 +4456,12 @@
 		(uuid "0b35e138-e0bd-44bb-961d-1f6df6204190")
 	)
 	(junction
+		(at 200.66 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bbf6cd6-ab22-4bd3-b2af-ca14a590e897")
+	)
+	(junction
 		(at 290.83 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4484,6 +4490,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27e221c5-3ffc-46f1-8f71-3e0b2a74ea5a")
+	)
+	(junction
+		(at 189.23 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29e4f332-0dfe-415e-86f3-31c60b7cb3c9")
 	)
 	(junction
 		(at 132.08 184.15)
@@ -4789,6 +4801,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 49.53) (xy 182.88 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0354ed0f-4585-4a3e-b648-05eefa5b457b")
+	)
+	(wire
+		(pts
 			(xy 63.5 167.64) (xy 73.66 167.64)
 		)
 		(stroke
@@ -4896,6 +4918,16 @@
 			(type default)
 		)
 		(uuid "102ed22b-fe55-4f82-be65-ce8c4e6f4818")
+	)
+	(wire
+		(pts
+			(xy 200.66 73.66) (xy 182.88 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104560e3-34fc-4c8d-8ab7-b60ca555f1fe")
 	)
 	(wire
 		(pts
@@ -5139,6 +5171,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 73.66) (xy 200.66 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26467325-f261-43f0-acf2-b0af0fa4b4c5")
+	)
+	(wire
+		(pts
 			(xy 118.11 90.17) (xy 118.11 96.52)
 		)
 		(stroke
@@ -5236,16 +5278,6 @@
 			(type default)
 		)
 		(uuid "2f010ca9-18d1-4e14-9f9f-63101712f8d1")
-	)
-	(wire
-		(pts
-			(xy 134.62 30.48) (xy 134.62 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f2d573d-a6a9-40a6-9f3f-0ba86c647890")
 	)
 	(wire
 		(pts
@@ -5706,16 +5738,6 @@
 			(type default)
 		)
 		(uuid "5a05c0dc-bdf3-4f5b-8044-2d0e1316d17a")
-	)
-	(wire
-		(pts
-			(xy 134.62 22.86) (xy 134.62 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b79c089-72c4-46c5-a0b8-ace08865d287")
 	)
 	(wire
 		(pts
@@ -6369,16 +6391,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 22.86) (xy 134.62 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afe23929-4da5-4726-8069-46f8cf410f92")
-	)
-	(wire
-		(pts
 			(xy 92.71 172.72) (xy 115.57 172.72)
 		)
 		(stroke
@@ -6629,7 +6641,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 68.58) (xy 200.66 74.93)
+			(xy 200.66 68.58) (xy 200.66 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6839,6 +6851,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 49.53) (xy 182.88 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca1055f-882f-4cc7-b52c-c55a526acb98")
+	)
+	(wire
+		(pts
 			(xy 99.06 90.17) (xy 109.22 90.17)
 		)
 		(stroke
@@ -6946,6 +6968,16 @@
 			(type default)
 		)
 		(uuid "e81bd840-44ed-42a8-87e8-d0b5e98afe17")
+	)
+	(wire
+		(pts
+			(xy 182.88 73.66) (xy 182.88 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e92c1dba-1685-4871-a6aa-26298d49c9f5")
 	)
 	(wire
 		(pts
@@ -7146,16 +7178,6 @@
 			(type default)
 		)
 		(uuid "fd9c19ff-8936-4d29-b307-4f66f8099192")
-	)
-	(wire
-		(pts
-			(xy 123.19 30.48) (xy 134.62 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdf14b59-58d1-4475-90b1-506b304d80d2")
 	)
 	(wire
 		(pts
@@ -8257,7 +8279,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 134.62 26.67 0)
+		(at 182.88 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8266,7 +8288,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bc38027-3eff-4392-ab6f-6c8605f24e14")
 		(property "Reference" "COSC1"
-			(at 137.16 25.4062 0)
+			(at 185.42 63.5062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8275,7 +8297,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 137.16 27.9462 0)
+			(at 185.42 66.0462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8284,7 +8306,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 134.62 26.67 0)
+			(at 182.88 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8293,7 +8315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 26.67 0)
+			(at 182.88 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8302,7 +8324,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 134.62 26.67 0)
+			(at 182.88 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
